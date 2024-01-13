@@ -3,12 +3,10 @@ import figlet from 'figlet';
 
 const body = figlet.textSync('Hello DevGT!', {
     font: 'Small Slant',
-    horizontalLayout: 'alternate',
+    horizontalLayout: 'default',
     verticalLayout: 'default',
     width: 80,
-    whitespaceBreak: true,
-    colors: true
-
+    whitespaceBreak: true
 })
 
 const server = Bun.serve({
